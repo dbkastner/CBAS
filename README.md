@@ -26,3 +26,5 @@ To run the comparative CBAS a wave that contains the two groups of subjets to be
 To run the correlative CBAS a wave that contains the subjects for analysis needs to be created. It needs to be an N x 2 matrix, where N is the total number of animals. The first column contains the subject number, and the second column contains the value of the covariate of interest for that subject. 
 
 To run CBAS run: 'runCBAS(anInfoWv)' in the command line of IGOR, where anInfoWv is the matrix described above that is different for the comparative or correlative CBAS.
+
+The main output are the multiple comparison corrected p-values for all comparisons evaluated. Each comparison has two associated p-values for the two one-tailed tests. The p-values are located in the wave "rwPvals_anInfoWv" where anInfoWv is the name of the input wave to the runCBAS function.
