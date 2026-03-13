@@ -5,7 +5,7 @@ CBAS is written for IgorPro. The version in the repository was run on Igor Pro v
 
 There are two files, one that will run the comparative CBAS, and another that will run the correlatonal CBAS.
 
-To run either version of CBAS, subject data has to be uploaded to data folders. The names of the data folders need to be written in a text file called 'expInfo.' Each data folder needs 4 waves, labeled 'sex,' 'types,' lesion,' 'implant.' Each of the waves need to be the number of subjects long, and can contain qualifiers about the subjects to be selected for.
+To run either version of CBAS, subject data has to be uploaded to data folders. The names of the data folders need to be written in the rows of a text file called 'expInfo.'  The subject data should be labeled as "reAllOneAn#", where # goes from 0 to the total number of subjects in that group. In additon to the subject data, each data folder needs 4 waves, labeled 'sex,' 'types,' lesion,' 'implant.' Each of the waves need to be the number of subjects long, and can contain qualifiers about the subjects to be selected for.
 
 Data needs to be structured in a specific way. The data for each subject should be in a number of trials x 5 matrix.
 The first column contains the session number (0 ... N)
@@ -16,7 +16,8 @@ The fourth and fifth column contain information about the contingency. For the C
 The constants listed at the top of the file are as follows:
 NumConting: number of contingencies to be analyzed.
 NumArms: the number of different choices available to the subject
-SeqLenMax: the maximum number of choices evaluated by CBAS (CBAS will evaluate all sequences in the dataset up to and including this length)
+SeqLenMax: the maximum number of choices evaluated by CBAS (CBAS will evaluate all sequences in the dataset up to and including this length).
+Criterion: the total number of trials evaluated for each subject.
 ContingList: a list of strings, separated by ';' that contains the contingency number to be evaluated. The number has to be greater than 0.
 ResampleNumber: the total number of resamples that will be done by the Romano-Wolf method for multiple comparisons correction.
 
