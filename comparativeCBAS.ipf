@@ -17,7 +17,7 @@ function runCBAS(anInfoWv)
 	critLengthInfo[0][2]=800
 	doAllSeqAcrossAn(critLengthInfo)
 	
-	wave wv=$"wtsHipReorder"
+	wave wv=$nameOfWave(anInfoWv)
 	string list=nameOfwave(wv)+";"
 	doResampleAndFindK(list,1)
 	saveExperiment
