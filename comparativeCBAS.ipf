@@ -3,6 +3,7 @@
 
 CONSTANT NumContings=1
 CONSTANT NumArms=6,SeqLenMax=6
+CONSTANT Criterion=800
 StrCONSTANT ContingList="1;"
 CONSTANT ResampleNumber=10000
 
@@ -14,7 +15,7 @@ function runCBAS(anInfoWv)
 	make /o/n=(1,3) critLengthInfo
 	critLengthInfo[0][0]=0
 	critLengthInfo[0][1]=400
-	critLengthInfo[0][2]=800
+	critLengthInfo[0][2]=Criterion
 	doAllSeqAcrossAn(critLengthInfo)
 	
 	string list=nameOfwave(anInfoWv)+";"
