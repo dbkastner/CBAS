@@ -1,0 +1,106 @@
+number,sex,lesion status,experiment
+0,male,control,initial
+1,male,control,initial
+2,male,hippocampal lesion,initial
+3,male,hippocampal lesion,initial
+4,male,hippocampal lesion,initial
+5,male,control,initial
+6,male,control,initial
+7,male,hippocampal lesion,initial
+8,male,control,initial
+9,male,hippocampal lesion,initial
+10,male,hippocampal lesion,initial
+11,male,hippocampal lesion,initial
+12,male,control,initial
+13,male,control,initial
+14,male,control,initial
+15,male,hippocampal lesion,initial
+16,male,control,initial
+17,male,hippocampal lesion,initial
+18,male,hippocampal lesion,initial
+19,male,control,initial
+20,male,hippocampal lesion,initial
+21,male,control,initial
+22,male,hippocampal lesion,initial
+23,male,control,initial
+24,male,hippocampal lesion,initial
+25,male,control,initial
+26,male,hippocampal lesion,initial
+27,male,control,initial
+28,male,control,initial
+29,male,hippocampal lesion,initial
+30,male,control,initial
+31,male,hippocampal lesion,initial
+32,male,control,initial
+33,male,control,initial
+34,male,hippocampal lesion,initial
+35,male,control,initial
+36,male,control,initial
+37,male,hippocampal lesion,initial
+38,male,control,initial
+39,male,control,initial
+40,female,control,initial
+41,female,hippocampal lesion,initial
+42,female,control,initial
+43,female,hippocampal lesion,initial
+44,female,control,initial
+45,female,hippocampal lesion,initial
+46,female,control,initial
+47,female,hippocampal lesion,initial
+48,female,control,initial
+49,female,hippocampal lesion,initial
+50,female,control,initial
+51,female,control,initial
+52,female,control,initial
+53,female,hippocampal lesion,initial
+54,female,hippocampal lesion,initial
+55,female,control,initial
+56,female,control,initial
+57,female,hippocampal lesion,initial
+58,female,control,initial
+59,female,hippocampal lesion,initial
+60,female,control,initial
+61,female,hippocampal lesion,initial
+62,female,control,initial
+63,female,hippocampal lesion,initial
+64,female,control,initial
+65,female,hippocampal lesion,initial
+66,female,control,initial
+67,female,hippocampal lesion,initial
+68,female,control,initial
+69,female,control,initial
+70,female,hippocampal lesion,initial
+71,female,hippocampal lesion,initial
+72,female,control,initial
+73,female,hippocampal lesion,initial
+74,female,control,initial
+75,female,control,initial
+76,female,hippocampal lesion,initial
+77,female,control,initial
+78,female,hippocampal lesion,initial
+79,female,hippocampal lesion,initial
+80,female,control,initial
+81,female,control,initial
+82,female,hippocampal lesion,initial
+83,female,control,initial
+84,female,hippocampal lesion,initial
+85,male,control,replication
+86,male,hippocampal lesion,replication
+87,male,hippocampal lesion,replication
+88,male,hippocampal lesion,replication
+89,male,control,replication
+90,male,hippocampal lesion,replication
+91,male,control,replication
+92,male,control,replication
+93,male,hippocampal lesion,replication
+94,male,hippocampal lesion,replication
+95,male,control,replication
+96,male,control,replication
+97,male,hippocampal lesion,replication
+98,male,control,replication
+99,male,hippocampal lesion,replication
+100,male,control,replication
+101,male,hippocampal lesion,replication
+102,male,control,replication
+103,male,hippocampal lesion,replication
+104,male,hippocampal lesion,replication
